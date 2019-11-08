@@ -1,4 +1,5 @@
-# importing libraries 
+# Stitch.py iterates through a folder of still images to create an .avi video at 5 FPS
+
 import os 
 import cv2 
 from PIL import Image 
