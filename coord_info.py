@@ -1,4 +1,8 @@
-# show original image and get coordinates for a mask
+# use this script to display an original image in Python GUI
+# select coordinates for a mask, to be applied to a single image (using mask.py) or to a folder of images (using mask_all.py)
+
+# note: imshow function does not always work in Jupyter notebooks and colaboratory
+# works best when run from command line
 
 from matplotlib import pyplot as plt
 import cv2
