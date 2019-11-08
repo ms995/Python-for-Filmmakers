@@ -1,3 +1,6 @@
+# note: filenames must first be formatted to contain 'created time' (see rename_files.py for help)
+# timestamp.py adds a timestamp banner to the top 80px of each image
+
 import os
 import numpy as np
 import cv2
