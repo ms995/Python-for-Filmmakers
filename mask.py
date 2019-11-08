@@ -1,3 +1,10 @@
+# mask.py uses cv2 bitwise_and with two images:
+# 1. the original, 2. the mask, with your choice of coordinates
+# to create a new image with a rectangular mask
+
+# Note that mask.py displays but doesn't save the result.
+# I typically use this script to check before applying a mask to entire folders of images. 
+
 from matplotlib import pyplot as plt
 import cv2
 import numpy as np
@@ -6,7 +13,7 @@ import numpy as np
 picture = cv2.imread("532c.jpg")
 print(picture.shape)
 
-# Create the basic black image 
+# Create the basic black image: same shape 
 mask = np.zeros(shape = picture.shape, dtype = "uint8")
 
 # Draw a white, filled rectangle on the mask image
