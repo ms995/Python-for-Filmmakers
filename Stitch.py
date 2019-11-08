@@ -8,7 +8,6 @@ print(os.getcwd())
 
 # Folder which contains all the images 
 # from which video is to be generated 
-#surgesm on macbook
 os.chdir("/Users/surgesm/Desktop/flow/imagesets/532c") 
 path = "/Users/surgesm/Desktop/flow/imagesets/532c"
 
@@ -17,11 +16,10 @@ print(num_of_images)
 
 for file in os.listdir('.'): 
 	im = Image.open(os.path.join(path, file)) 
-	# im.show() # uncomment this for displaying the image 
 
 # Video Generating function 
 def generate_video(): 
-	image_folder = '/Users/surgesm/Desktop/flow/imagesets/532c' # make sure to use your folder 
+	image_folder = '/Users/surgesm/Desktop/flow/imagesets/532c'
 	video_name = '532c_2_24_5fps.avi'
 	os.chdir("/Users/surgesm/Desktop/flow/imagesets/532c") 
 	
@@ -40,7 +38,7 @@ def generate_video():
 	# the width, height of first image 
 	height, width, layers = frame.shape 
 
-	# 5fps
+	# Set to 5 fps - adjust the third parameter to set a different frame rate
 	video = cv2.VideoWriter(video_name, 0, 5, (width, height)) 
 
 	# Appending the images to the video one by one 
