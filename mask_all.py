@@ -1,3 +1,6 @@
+# Similar to mask.py, but applies the mask to an entire folder of images and saves the resulting images in that location
+# Note that this script will overwrite existing files in the given folder
+
 from matplotlib import pyplot as plt
 import os
 import numpy as np
