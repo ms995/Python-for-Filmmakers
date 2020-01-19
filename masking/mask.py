@@ -10,7 +10,7 @@ import cv2
 import numpy as np
 
 # Load the original image
-picture = cv2.imread("532c.jpg")
+picture = cv2.imread("A.jpg")
 print(picture.shape)
 
 # Create the basic black image: same shape 
