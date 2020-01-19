@@ -9,7 +9,7 @@ import cv2
 import numpy as np
 
 # load image and get shape values (h, w, num. channels)
-picture = cv2.imread("532.jpg")
+picture = cv2.imread("A.jpg")
 print(picture.shape)
 
 # display rgb image with plot lines
