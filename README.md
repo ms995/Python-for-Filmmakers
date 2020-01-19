@@ -7,3 +7,6 @@ A collection of python scripts for downloading, modifying, and animating batches
 - Most scripts require *OpenCV* (https://opencv.org/releases/), *PIL* (https://pypi.org/project/Pillow/), and *Matplotlib* (https://matplotlib.org/) libraries.
 - *Requests* library needed for internet downloads (https://2.python-requests.org/en/master/).
 - *Datetime* (https://docs.python.org/3/library/datetime.html) and *OS* modules (https://docs.python.org/3/library/os.html) built in to Python Standard Library.
+
+# Resources:
+- ffmpeg http://ffmpeg.org/ffmpeg.html
