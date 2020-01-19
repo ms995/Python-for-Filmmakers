@@ -2,7 +2,7 @@ import os
 import requests
 from io import BytesIO
 
-os.chdir('/Users/surgesm/Desktop/test') # first, set directory where files to be saved
+os.chdir('/path/to/folder') # first, set directory where files to be saved
 print(os.getcwd()) # print to make sure it's set correctly 
 
 # download from the list
