@@ -7,8 +7,8 @@ import numpy as np
 import cv2
 
 # folder which contains all the images 
-image_folder = '/Users/surgesm/Desktop/flow/imagesets/532c'
-os.chdir("/Users/surgesm/Desktop/flow/imagesets/532c") 
+image_folder = '/path/to/images'
+os.chdir("/path/to/images") 
 
 images = [img for img in os.listdir(image_folder) 
 			if img.endswith(".jpg") or
