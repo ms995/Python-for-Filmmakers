@@ -2,8 +2,8 @@
 
 import cv2 
 	
-inpath = r'/Users/surgesm/Desktop/P4F/Figure_1a.png' # set path to original image file
-outpath = '/Users/surgesm/Desktop/P4F/Figure_1a_ellipse.png' # rename and state where to save new file
+inpath = r'/path/to/mandelbrot.png' # set path to original image file
+outpath = '/path/to/new.png' # rename and state where to save new file
 	
 # Reading an image in default mode 
 image = cv2.imread(inpath) 
